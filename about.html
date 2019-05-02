@@ -1,0 +1,124 @@
+<!--
+suck my dick, eat my ass,,
+-->
+<head>
+<title>Rain</title>
+
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="icon" type="image/ico" href="images/favicon.jpg">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script language="JavaScript">
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+</head>
+
+<style>
+body {
+  background: url('xv3Fwjz6UKAso.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+</style>
+
+<style type="text/css">
+body {
+    overflow:hidden;
+}
+</style>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Social.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<style>
+
+@font-face {
+    font-family: Fixedsys Excelsior;
+    font-style: normal;
+    src: url("font/fsex300-webfont.ttf");
+         url("font/fsex300-webfont.eot");
+         url("font/fsex300-webfont.woff");
+}
+
+div {
+    font-family: Fixedsys Excelsior;
+}
+</style>
+
+<style>
+    body {height: 100vh; }
+    * { cursor: url(crosshair.cur) , default; }
+</style>
+
+<div id="screen">
+<div id="title" class= "rainbow">
+About
+</div>
+
+<hr>
+
+<font color="white">* 13 year old programmer & artist
+
+<video autoplay="" loop="" id="player">
+var video = document.currentScript.parentElement;
+video.volume = 0.90;
+</script>
+</video>
+
+<audio autoplay loop>
+<iframe  allow="autoplay" allow="loop" src="song.mp3" id="audio"></iframe>
+</audio>
+
+
+</body>
+</html>
