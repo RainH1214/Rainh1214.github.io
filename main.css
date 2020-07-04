@@ -4,7 +4,9 @@
   -moz-border-sizing: border-box;
   border-sizing: border-box;
 }
-
+.is-splash.flowplayer .fp-ui, .is-paused.flowplayer .fp-ui {
+display: none;
+}
 .rainbow {
 
   /* Font options */
